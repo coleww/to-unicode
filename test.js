@@ -21,3 +21,8 @@ tap.test('returns fonts too', function(t){
   t.equal(type, 'object')
   t.end()
 })
+
+tap.test('applies a random font if one is not provided', function(t){
+  t.equal(toUnicode('BOOP').length, 4)
+  t.end()
+})

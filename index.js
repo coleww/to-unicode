@@ -2,7 +2,7 @@ var fonts = require('./fonts')
 
 module.exports = function(text, font){
   var alphabet = "abcdefghijklmnopqrstuvwxyz".split("")
-  var alph = fonts[font]
+  var alph = fonts[font] || Object.keys(fonts)[~~(Math.random() * Object.keys(fonts).length)]
   var mappy = {}
   alphabet.forEach(function(l, i){
     mappy[l] = alph[i]
