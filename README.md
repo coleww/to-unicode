@@ -11,15 +11,15 @@ you know, for giving your twitter bot cooler text, or something.
 var str = 'capitalism'
 var unicody = toUnicode(str, 'inverted')
 var flipper = '(╯°□°）╯︵ '
-console.log(flipper + unicody)
-=>
+console.log(flipper + unicody.split("").reverse().join(""))
+=> (╯°□°）╯ɯsıןɐʇıdɐɔ
 ```
 
 ### API
 
 toUnicode(stringToConvert, fontSeeBelowForMoreInformation)
 
-If you do not provide a font to convert to, one will be picked for you at random.
+If you do not provide a font, one will be picked for you at random.
 
 ### options/fonts
 
