@@ -13,6 +13,14 @@ var unicody = toUnicode(str, 'inverted')
 var flipper = '(╯°□°）╯︵ '
 console.log(flipper + unicody.split("").reverse().join(""))
 => (╯°□°）╯ɯsıןɐʇıdɐɔ
+
+
+var ransom_note = 'give me allll of the cookies, or else!'
+var scrambled = ransom_note.split("").map(function(letter){
+    return toUnicode(letter)
+}).join("")
+console.log(scrambled)
+=> �ïᴠ� �� 🂇��ʟ �ｆ T�� ȼ��ᴋɨ�ṡ, o� 𝕵��!
 ```
 
 ### API

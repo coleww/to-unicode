@@ -1,11 +1,32 @@
 {
   "name": "to-unicode",
-  "description": "convert strings to unicode-y fonts",
+  "description": "convert strings to 𝓾ｎ⒤ᴄø𝖉ë",
   "version": "1.0.0",
   "main": "index.js",
   "devDependencies": {
     "tape": "^4.0.0"
   },
   "author": "Cole Willsea <coleww@gmail.com> (http://colewillsea.com/)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "browserify": "^10.2.4",
+    "tape": "^4.0.0",
+    "watchify": "^3.2.3"
+  },
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coleww/to-unicode.git"
+  },
+  "keywords": [
+    "unicode",
+    "font",
+    "text"
+  ],
+  "bugs": {
+    "url": "https://github.com/coleww/to-unicode/issues"
+  },
+  "homepage": "https://github.com/coleww/to-unicode"
 }
