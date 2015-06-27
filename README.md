@@ -12,7 +12,7 @@ you know, for giving your twitter bot cooler text, or something.
 
 `npm install to-unicode`
 
-### example
+### examples
 
 ```
 var str = 'capitalism'
@@ -32,7 +32,7 @@ console.log(scrambled)
 
 ### API
 
-toUnicode(stringToConvert, fontSeeBelowForMoreInformation)
+`toUnicode(stringToConvert, fontSeeBelowForMoreInformation)`
 
 If you do not provide a font, one will be picked for you at random.
 
