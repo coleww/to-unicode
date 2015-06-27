@@ -1,9 +1,16 @@
 to-unicode
 ----------------
 
+[![NPM](https://nodei.co/npm/to-unicode.png)](https://nodei.co/npm/to-unicode/)
+
 swaps out letters for unicodey equivalents.
 
 you know, for giving your twitter bot cooler text, or something.
+
+
+### INSTALL
+
+`npm install to-unicode`
 
 ### example
 
