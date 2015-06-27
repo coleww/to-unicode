@@ -3,17 +3,9 @@
   "description": "convert strings to unicode-y fonts",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "build": "browserify index.js -o bundle.js",
-    "watch": "watchify index.js -o bundle.js --debug --verbose"
-  },
   "devDependencies": {
-    "browserify": "*",
-    "watchify": "*"
+    "tape": "^4.0.0"
   },
   "author": "Cole Willsea <coleww@gmail.com> (http://colewillsea.com/)",
-  "license": "MIT",
-  "dependencies": {
-    "tape": "^4.0.0"
-  }
+  "license": "MIT"
 }
