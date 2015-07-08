@@ -10,6 +10,7 @@ swaps out letters for unicodey equivalents.
 
 you know, for giving your bot cooler text, or something.
 
+[demo](http://coleww.github.io/to-unicode/) (TODO: why is it half-broken?)
 
 ### INSTALL
 
@@ -33,6 +34,8 @@ console.log(scrambled)
 => �ïᴠ� �� 🂇��ʟ �ｆ T�� ȼ��ᴋɨ�ṡ, o� 𝕵��!
 // why is this so broken sometimes...
 ```
+
+
 
 ### API
 
