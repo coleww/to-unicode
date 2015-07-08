@@ -1,7 +1,7 @@
 var fonts = require('./fonts')
 
 module.exports = function(text, font){
-  if(!font){
+  if(!font || !fonts[font]){
     font = Object.keys(fonts)[~~(Math.random() * Object.keys(fonts).length)]
   }
   var alphabet = "abcdefghijklmnopqrstuvwxyz".split("")
