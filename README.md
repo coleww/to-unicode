@@ -1,11 +1,14 @@
-to-unicode
+# TO UNICODE!
+
+![cheers](cheers.jpg)
+
 ----------------
 
 [![NPM](https://nodei.co/npm/to-unicode.png)](https://nodei.co/npm/to-unicode/)
 
 swaps out letters for unicodey equivalents.
 
-you know, for giving your twitter bot cooler text, or something.
+you know, for giving your bot cooler text, or something.
 
 
 ### INSTALL
@@ -28,6 +31,7 @@ var scrambled = ransom_note.split("").map(function(letter){
 }).join("")
 console.log(scrambled)
 => �ïᴠ� �� 🂇��ʟ �ｆ T�� ȼ��ᴋɨ�ṡ, o� 𝕵��!
+// why is this so broken sometimes...
 ```
 
 ### API
@@ -59,3 +63,25 @@ If you do not provide a font, one will be picked for you at random.
 - stroked: Ⱥƀȼ
 - inverted: ɐqɔ
 - reversed: Adↄ-
+
+
+### CLI
+
+`npm install to-unicode -g`
+
+```
+convert text to unicode fonts
+
+Options:
+  -t, --font  font to render text in. if one is not passed, a font will be
+              assigned to you at random.
+  -f, --file  path to file containing text to convert
+  -h, --help  Show help                                                [boolean]
+
+Examples:
+  toUnicode weird
+  toUnicode -t fullWidth oh yeah, wow this
+  is amazing
+  toUnicode -t circled -f presentation.txt
+  node test.js | toUnicode
+```

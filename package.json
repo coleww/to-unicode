@@ -3,14 +3,18 @@
   "description": "convert strings to 𝓾ｎ⒤ᴄø𝖉ë",
   "version": "1.0.1",
   "main": "index.js",
+  "scripts": {
+    "build": "browserify www/demo.js -o www/bundle.js",
+    "watch": "watchify www/demo.js -o www/bundle.js --debug --verbose",
+    "test": "node test.js"
+  },
   "devDependencies": {
-    "tape": "^4.0.0"
+    "browserify": "^10.2.4",
+    "tape": "^4.0.0",
+    "watchify": "^3.2.3"
   },
   "author": "Cole Willsea <coleww@gmail.com> (http://colewillsea.com/)",
   "license": "MIT",
-  "scripts": {
-    "test": "node test.js"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/coleww/to-unicode.git"
@@ -23,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/coleww/to-unicode/issues"
   },
-  "homepage": "https://github.com/coleww/to-unicode"
+  "homepage": "https://github.com/coleww/to-unicode",
+  "dependencies": {
+    "yargs": "^3.15.0"
+  }
 }
