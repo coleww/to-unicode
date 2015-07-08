@@ -1,7 +1,10 @@
 {
   "name": "to-unicode",
   "description": "convert strings to 𝓾ｎ⒤ᴄø𝖉ë",
-  "version": "1.0.1",
+  "bin": {
+    "toUnicode": "cmd.js"
+  },
+  "version": "1.0.2",
   "main": "index.js",
   "scripts": {
     "build": "browserify www/demo.js -o www/bundle.js",
